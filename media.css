@@ -1,0 +1,49 @@
+@media screen and (max-width: 900px) {
+  .frame {
+    background-size: 800px;
+    background-repeat: no-repeat;
+  }
+  .painting {
+    background-color: rgb(18, 18, 220);
+    width: 300px;
+    height: 350px;
+    transform: translateY(65%) translateX(85%);
+  }
+  .painting__box1 {
+    width: 240px;
+    height: 80px;
+  }
+  .painting__box2 {
+    width: 280px;
+    height: 120px;
+  }
+  .painting__box3 {
+    width: 260px;
+    height: 120px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .frame {
+    background-size: 500px;
+    margin-top: 150px;
+  }
+  .painting {
+    width: 188px;
+    height: 220px;
+    background-color: pink;
+    transform: translateY(65%) translateX(85%);
+  }
+  .painting__box1 {
+    width: 120px;
+    height: 50px;
+  }
+  .painting__box2 {
+    width: 170px;
+    height: 75px;
+  }
+  .painting__box3 {
+    width: 170px;
+    height: 75px;
+  }
+}
